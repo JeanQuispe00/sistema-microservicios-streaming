@@ -1,0 +1,15 @@
+{
+  "name": "microservicio-eventos",
+  "version": "1.0.0",
+  "description": "Microservicio de eventos/usuarios con Firebase y New Relic",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r newrelic index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^12.0.0",
+    "newrelic": "^11.0.0"
+  }
+}
